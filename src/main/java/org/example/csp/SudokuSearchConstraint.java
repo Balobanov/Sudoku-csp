@@ -7,8 +7,8 @@ import org.example.sudoku.Sudoku.SudokuCell;
 
 public class SudokuSearchConstraint extends Constraint<SudokuCell, Integer> {
 
-	public SudokuSearchConstraint(List<SudokuCell> words) {
-		super(words);
+	public SudokuSearchConstraint(List<SudokuCell> cells) {
+		super(cells);
 	}
 
 	@Override
